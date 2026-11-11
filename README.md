@@ -1,5 +1,9 @@
 # FinSight AI: AI-Powered Personal Finance Management System
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sainathmpattar-maker-finsight-ai-app-xxxxxx.streamlit.app)
+
+> **Live Demo:** 🚀 **[https://finsight-ai.streamlit.app](https://finsight-ai.streamlit.app)**  
+> **GitHub:** [sainathmpattar-maker/finsight-ai](https://github.com/sainathmpattar-maker/finsight-ai)  
 > **Course Project:** AI for Finance  
 > **Target Persona:** Indian College Students & Early-Career Professionals  
 > **Status:** Production-Ready & Evaluated  
@@ -137,7 +141,7 @@
 
 ### 2. Clone and Navigate
 ```bash
-git clone https://github.com/your-username/finsight-ai.git
+git clone https://github.com/sainathmpattar-maker/finsight-ai.git
 cd finsight-ai
 ```
 

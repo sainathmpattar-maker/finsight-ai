@@ -27,7 +27,16 @@ DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 
 
 def get_gemini_api_key() -> Optional[str]:
-    """Retrieve Gemini API key from environment, returning None if missing or placeholder."""
+    """Retrieve Gemini API key from st.secrets (Streamlit Cloud) or environment (.env locally)."""
+    # 1. Try Streamlit Cloud secrets first
+    try:
+        import streamlit as st
+        key = st.secrets.get("GEMINI_API_KEY", "").strip()
+        if key and "your_" not in key.lower() and "<" not in key:
+            return key
+    except Exception:
+        pass
+    # 2. Fall back to .env / environment variable
     key = os.getenv("GEMINI_API_KEY", "").strip()
     if not key or "your_" in key.lower() or "<" in key:
         return None
