@@ -1,8 +1,8 @@
 # FinSight AI: AI-Powered Personal Finance Management System
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sainathmpattar-maker-finsight-ai-app-xxxxxx.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://finsight-ai-ytwfcgtro8vcm4uwwkmmx9.streamlit.app/)
 
-> **Live Demo:** 🚀 **[https://finsight-ai.streamlit.app](https://finsight-ai.streamlit.app)**  
+> **Live Demo:** 🚀 **[https://finsight-ai-ytwfcgtro8vcm4uwwkmmx9.streamlit.app/](https://finsight-ai-ytwfcgtro8vcm4uwwkmmx9.streamlit.app/)**  
 > **GitHub:** [sainathmpattar-maker/finsight-ai](https://github.com/sainathmpattar-maker/finsight-ai)  
 > **Course Project:** AI for Finance  
 > **Target Persona:** Indian College Students & Early-Career Professionals  
